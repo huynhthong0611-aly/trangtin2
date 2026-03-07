@@ -6,7 +6,7 @@
 	"scripts": {
 		"test": "nodemon index.js"
 	},
-	"author": "Nguyễn Hoàng Tùng",
+	"author": "Nguyễn Thị KIm Ngọc",
 	"license": "ISC",
 	"dependencies": {
 		"bcryptjs": "^3.0.3",
