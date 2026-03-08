@@ -10,7 +10,7 @@ var chudeRouter = require('./routers/chude');
 var taikhoanRouter = require('./routers/taikhoan');
 var baivietRouter = require('./routers/baiviet');
 
-var uri = 'mongodb://ngoc:ngoc123@ac-wkqwdfb-shard-00-01.hwplpxk.mongodb.net:27017/trangtin?ssl=true&authSource=admin';
+var uri = 'mongodb://Admin:admin123@ac-ecq10ia-shard-00-01.qrpx3vc.mongodb.net:27017/trangtin?ssl=true&authSource=admin';
 mongoose.connect(uri).catch(err => console.log(err));
 
 app.set('views', './views');
